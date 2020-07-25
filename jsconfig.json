@@ -1,11 +1,11 @@
 /* eslint-disable prefer-template */
-
 {  
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "*": ["src/*"],
+      "src": ["src/*"],
       "components/*": ["src/components/*"],
+      "store/*": ["src/store/*"]
     },
   },
 }
