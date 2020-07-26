@@ -61,7 +61,7 @@ import App from 'components/App'
 
 ### babel-plugin-module-resolver
 
-babel에서 모듈의 경로를 지정한다. 이는 프로젝트의 경로에 대한 설정이다.
+babel에서 모듈의 경로를 지정한다. 이는 프로젝트의 모듈별 경로에 대한 설정이다.
 
 ```javascript
 plugins: [
