@@ -1,9 +1,10 @@
-import { ADD_TODO, TOGGLE_TODO, SET_FILTER } from 'store/actionTypes';
+export const ADD_TODO = 'ADD_TODO';
+export const TOGGLE_TODO = 'TOGGLE_TODO';
+export const SET_FILTER = 'SET_FILTER';
 
 let nextTodoId = 0;
 
 export const addTodo = (content) => {
-  console.log(content);
   return {
     type: ADD_TODO,
     payload: {
